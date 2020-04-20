@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
+
+import Scene from "./components/Scene"
 
 import './styles/index.scss';
 
@@ -11,6 +13,7 @@ function App () {
         <p>
           Start editing to make a magic game :)
         </p>
+        <Scene />
       </div>
     );
 
