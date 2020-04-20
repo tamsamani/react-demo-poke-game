@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import './style.scss';
+import './styles/index.scss';
 
 function App () {
   
@@ -9,11 +9,11 @@ function App () {
       <div>
         <h1> Pokemon Game </h1>
         <p>
-          Start editing to see some magic happen :)
+          Start editing to make a magic game :)
         </p>
       </div>
     );
-  }
+
 }
 
 render(<App />, document.getElementById('root'));
