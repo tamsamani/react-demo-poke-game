@@ -1,4 +1,4 @@
-import Scene from "./../components/Scene";
+import Scene from "../Components/Scene";
 
 export default function () {
 	return (
